@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Humblebundle Downloader",
+    "description": "Mass download books from Humblebundle",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "action": {
+        "default_title": "Humlebundle E-Book Downloader",
+        "default_popup": "downloader.html",
+        "default_icon": {
+            "16": "images/downloader-16.png",
+            "32": "images/downloader-16.png",
+            "48": "images/downloader-16.png",
+            "128": "images/downloader-16.png"
+        }
+    }
+}
