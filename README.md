@@ -1,5 +1,5 @@
 # Humblebundle Mass E-Book Downloader Chrome Extension
-
+Chrome extension to help download books from Humblebundle
 
 
 ## Pending Features
